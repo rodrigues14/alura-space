@@ -5,7 +5,7 @@ import styles from './Cabecalho.module.scss'
 export default function Cabecalho() {
   return (
     <header className={styles.cabecalho}>
-      <img src={logo} alt="Logo do Alura Space" />
+      <img src={logo} alt="Logo da Alura Space" />
       <div className={styles.cabecalho__container}>
         <input
           className={styles.cabecalho__input}
